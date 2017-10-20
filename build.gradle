@@ -1,0 +1,21 @@
+plugins {
+  id 'java'
+  id 'application'
+}
+
+repositories {
+  jcenter()
+}
+
+version = '3.5.0'
+sourceCompatibility = '1.8'
+
+dependencies {
+  compile "io.vertx:vertx-core:$version"
+}
+
+mainClassName = 'io.vertx.example.HelloWorldEmbedded'
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '4.0'
+}
