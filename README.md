@@ -11,20 +11,23 @@ deploying code in verticles.
 ## Setting up the project
 
 1. *Fork* this git repository and *clone* the fork to a local directory [(Reference)](https://guides.github.com/introduction/git-handbook)
+2. Download vertx from http://vertx.io/
 
 ###### If not using an IDE, skip steps 2 and 3
 
-2. If you prefer using an IDE, install [Intellij IDEA](https://www.jetbrains.com/idea) or another preferred IDE
-3. Import the cloned repository into your IDE
-
+3. If you prefer using an IDE, install [Intellij IDEA](https://www.jetbrains.com/idea) or another preferred IDE
+4. Import the cloned repository into your IDE
+5. Download Java development kit (JDK 8, as 9 won't work)
+6. Configure intelli J project defaults, project structure, to set the project SDK to java version 1.8
 
 
 ## Running the app
 
 ###### If using an IDE like Intellij IDEA,
 
-1. Right click the **HelloWorldEmbedded** class
-2. Click **Run as...**
+1. Right click on the vertx at the top of the code and use the suggested help from intellij to link it to the project
+2. Right click the **HelloWorldEmbedded** class
+3. Click **Run as...**
 
 ###### Alternatively,
 
