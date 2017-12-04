@@ -19,6 +19,7 @@ deploying code in verticles.
 4. Import the cloned repository into your IDE
 5. Download Java development kit (JDK 8, as 9 won't work)
 6. Configure intelli J project defaults, project structure, to set the project SDK to java version 1.8
+    vertx guidance (2).png
 
 
 ## Running the app
