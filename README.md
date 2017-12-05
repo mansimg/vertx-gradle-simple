@@ -17,7 +17,7 @@ deploying code in verticles.
 
 3. If you prefer using an IDE, install [IntelliJ IDEA](https://www.jetbrains.com/idea) or another preferred IDE
 4. Import the cloned repository into your IDE
-5. [Download Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (as JDK 9 won't work) for your OS and install.
+5. [Download Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your OS and install.
 
 6. Configure intelliJ project defaults, project structure, to set the project SDK to java version 1.8
 
