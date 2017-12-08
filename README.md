@@ -1,5 +1,7 @@
 # Vert.x 3.1 Simplest Gradle Project
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f2a69b0569704402b8341aa18979a79b)](https://www.codacy.com/app/tegenton/vertx-gradle-simple?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tegenton/vertx-gradle-simple&amp;utm_campaign=Badge_Grade)
+
 This is simple Hello World Vert.x 3.1 project using the Gradle build system. It initializes a simple HTTP server which
 simply returns "Hello World!" with every request.
 
