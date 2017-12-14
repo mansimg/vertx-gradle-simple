@@ -60,9 +60,11 @@ Visit **http://localhost:(port)** on your browser
 
 ## Contributing to the project
 
-1. Make your intended changes on your locally cloned repository
-2. add a new branch with a meaningful name indicating your change (i.e. Add-Unit-Tests).
-2. *Commit* the changes and *push* the commit to your forked repository on GitHub
-3. Ensure the changes on the commit pushed to your GitHub fork are correct.
-4. Create a *pull request* requesting to merge the commits on your fork to this repository [(Reference)](https://guides.github.com/introduction/flow)
-5. Write a concise and convincing pull request message explaining the purpose of your commits!
+1. Fork the project on a local device.
+2. Make your intended changes on your locally cloned repository
+3. add a new branch with a meaningful name indicating your change (i.e. Add-Unit-Tests).
+4. *Commit* the changes and *push* the commit to your forked repository on GitHub
+5. Ensure the changes on the commit pushed to your GitHub fork are correct.
+6. Create a *pull request* requesting to merge the commits on your fork to this repository [(Reference)](https://guides.github.com/introduction/flow)
+7. Write a concise and convincing pull request message explaining the purpose of your commits!
+
