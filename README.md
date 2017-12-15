@@ -2,69 +2,75 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f2a69b0569704402b8341aa18979a79b)](https://www.codacy.com/app/tegenton/vertx-gradle-simple?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tegenton/vertx-gradle-simple&amp;utm_campaign=Badge_Grade)
 
-This is simple Hello World Vert.x 3.1 project using the Gradle build system. It initializes a simple HTTP server which
-simply returns "Hello World!" with every request.
+## What is Vert.x-Gradle-Simple
 
-In this example, Vert.x is used in an embedded fashion. It uses Vert.x APIs directly in its classes rather than
-deploying code in verticles.
+ Vert.x-Gradle-Simple is a Hello World [Vert.x 3.1(http://vertx.io/) project using the [Gradle](https://gradle.org/) build system. It initializes a simple HTTP server which simply returns "Hello World!" with every request given to it.
+
+ In this example, Vert.x is used in an embedded fashion. It uses Vert.x APIs directly in its classes rather than
+ deploying code in verticles.
+
 
 ## Setting up the project
 
-1. *Fork* this git repository ![](https://image.ibb.co/nwDFum/fork.png) and *clone* the fork to a local directory [(Reference)](https://guides.github.com/introduction/git-handbook)
-![](https://image.ibb.co/gsvyfR/clone.png)
+* Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html) for your Operating System!
+* Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
+* Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
+* Clone the repository to your local machine by running the following commands on git:
 
-2. Download Vert.x from http://vertx.io/
-3. Now, the file that we had downloaded, vertx.x-3.5.0-full, we will insert it into the vertx-gradle-simple folder.
+            `git clone https://github.com/[YOUR-USERNAME]/vertx-gradle-simple`
+* If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/). You can also ask for help in our [gitter channel](https://gitter.im/jboss-outreach/gci).
+* Download Vert.x from http://vertx.io/
 
-###### If not using an IDE, skip steps 3 and 4
 
-3. If you prefer using an IDE, install [IntelliJ IDEA](https://www.jetbrains.com/idea) or another preferred IDE
-4. Import the cloned repository into your IDE
-5. [Download Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your OS and install.
-6. We have to install an IDE that will serve as the code's executor. 
-There are several IDEs that you can use:
+###### If not using an IDE, skip steps 1 and 2
 
-·IntelliJ IDEA
+1. If you prefer using an IDE, install [IntelliJ IDEA](https://www.jetbrains.com/idea) or any other preferred IDE for Java Application Development.
+2. Configure java SDK version by going to :
 
-·Eclipse
-
-·And any IDE that can run JAVA code
-
-7. Configure intelliJ project defaults, project structure, to set the project SDK to java version 1.8
-
+			* File ---> Project Structure ---> Project Settings ---> Set the project SDK to  **Java version 1.8**
 
 ## Running the app
 
-##### If using an IDE like IntelliJ IDEA(1), Eclipse(2)
-###### IntelliJ IDEA
-1. Right click on the vertx at the top of the code and use the suggested help from intelliJ to link it to the project
-2. Right click the **HelloWorldEmbedded** class
-3. Click **Run as...**
 
-###### Eclipse
-1. We go to run → run configuration.    
-2. Create a new Java Aplication called vertx-gradle-simple project. 
-3. Then we browse the project, vertx-gradle-simple inside the Github folder. 
-4. We choose a main class that is called io.vertx.core.Launcher, and we activate this one.  
-5. On the project arguments we write “run io.vertx.example.HelloWorldEmbedded” ← or the name that you have putted on your file .java , and finally we press run.
+### Two Methods: 
 
-###### Alternatively,
+##### 1. Using an IDE like IntelliJ IDEA,
+* Import the cloned repository into your IDE
+* Right click on the vertx at the top of the code and use the suggested help from intelliJ to link it to the project
+* Right click the **HelloWorldEmbedded** class
+* Click **Run as...**
 
-Directly run the application using the gradle plugin with **./gradlew run**
+##### 2. Command Line Method
+
+
+Directly run the application using the gradle plugin in the command line with ```./gradlew run``` OR ``` gradlew run ``` depending on your operating system.
+
 
 ## Viewing the app after running it
 
-It will run at port 8080, but if it doesen’t work or it shows Failed to listen on port 8080 change the port at 8000 (orthe port you want).
-Visit **http://localhost:(port)** on your browser
+Visit **http://localhost:8080** on your browser
+
+if everything was setup correctly, you will see  ``` "Hello World" ``` displayed in your browser. 
+
+###### Playing with the code
+
+You can try and edit the request handler response in the **HelloWorldEmbedded** java file.
 
 
 ## Contributing to the project
+1. Make your intended changes on your locally cloned repository
+2. Add a new branch with a meaningful name indicating your change (i.e. Add-Unit-Tests).
+2. *Commit* the changes and *Push* the commit to your forked repository on GitHub
+3. Ensure the changes on the commit pushed to your GitHub fork are correct.
+4. Create a [pull request](https://help.github.com/articles/about-pull-requests/) requesting to merge the commits on your fork to this repository.
+5. Write a very conscise but informative pull request message. Remember to use your words wisely!
 
-1. Fork the project on a local device.
-2. Make your intended changes on your locally cloned repository
-3. add a new branch with a meaningful name indicating your change (i.e. Add-Unit-Tests).
-4. *Commit* the changes and *push* the commit to your forked repository on GitHub
-5. Ensure the changes on the commit pushed to your GitHub fork are correct.
-6. Create a *pull request* requesting to merge the commits on your fork to this repository [(Reference)](https://guides.github.com/introduction/flow)
-7. Write a concise and convincing pull request message explaining the purpose of your commits!
+
+## Addtional Learning
+* [Understanding the Github Flow](https://guides.github.com/introduction/flow/)
+* [Working with Git](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+* [Explore Vert.x](http://vertx.io/docs/)
+* [Understanding Gradle](http://igorpopov.io/2014/05/01/understanding-gradle/)
+* [What is LocalHost](https://en.wikipedia.org/wiki/Localhost)
+
 
