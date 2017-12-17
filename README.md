@@ -4,7 +4,7 @@
 
 ## What is Vert.x-Gradle-Simple
 
- Vert.x-Gradle-Simple is a Hello World [Vert.x 3.1(http://vertx.io/) project using the [Gradle](https://gradle.org/) build system. It initializes a simple HTTP server which simply returns "Hello World!" with every request given to it.
+ Vert.x-Gradle-Simple is a Hello World [Vert.x 3.1](http://vertx.io/) project using the [Gradle](https://gradle.org/) build system. It initializes a simple HTTP server which simply returns "Hello World!" with every request given to it.
 
  In this example, Vert.x is used in an embedded fashion. It uses Vert.x APIs directly in its classes rather than
  deploying code in verticles.
@@ -17,7 +17,8 @@
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
 * Clone the repository to your local machine by running the following commands on git:
 
-             git clone https://github.com/[YOUR-USERNAME]/vertx-gradle-simple
+
+            ```$ git clone https://github.com/[YOUR-USERNAME]/vertx-gradle-simple```
 * If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/). You can also ask for help in our [gitter channel](https://gitter.im/jboss-outreach/gci).
 * If not using Git, then simply download the [.zip](https://github.com/jboss-outreach/vertx-gradle-simple/archive/master.zip) file of this repository and unzip the file.
 * Download Vert.x from http://vertx.io/
@@ -42,7 +43,8 @@
 * Click **Run as...**
 
 ##### 2. Command Line Method
-* Directly run the application using the gradle plugin in the command prompt/terminal with ``` gradlew run ``` (for Windows) or ``` sudo ./gradlew run``` (for Linux/Unix).
+
+Directly run the application using the gradle plugin in the command line with ```./gradlew run``` on Linux/macOS OR ``` gradlew run ``` on Windows.
 * If permission is denied, then run cmd as admin (for Windows) or use ```chmod +x ./gradlew``` (for Linux/Unix)
 
 
