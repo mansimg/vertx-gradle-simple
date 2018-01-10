@@ -4,7 +4,7 @@
 
 ## What is Vert.x-Gradle-Simple
 
- Vert.x-Gradle-Simple is a Hello World [Vert.x 3.1](http://vertx.io/) project using the [Gradle](https://gradle.org/) build system. It initializes a simple HTTP server which simply returns "Hello World!" with every request given to it.
+ Vert.x-Gradle-Simple is a `Hello World [Vert.x 3.1](http://vertx.io/)` project using the [Gradle](https://gradle.org/) build system. It initializes an HTTP server which simply returns "Hello World!" with every request.
 
  In this example, Vert.x is used in an embedded fashion. It uses Vert.x APIs directly in its classes rather than
  deploying code in verticles.
@@ -12,14 +12,15 @@
 
 ## Setting up the project
 
-* Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your Operating System!
+* Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your Operating System.
 * Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
-* Clone the repository to your local machine by running the following commands on git:
+* Clone the repository to your local machine by running the following command on git:
 
 
-            ```$ git clone https://github.com/[YOUR-USERNAME]/vertx-gradle-simple```
-* If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/). You can also ask for help in our [gitter channel](https://gitter.im/jboss-outreach/gci).
+            $ git clone https://github.com/[YOUR-USERNAME]/vertx-gradle-simple
+
+* If you need help with this, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/). You can also ask for help on our [gitter channel](https://gitter.im/jboss-outreach/gci).
 * If not using Git, then simply download the [.zip](https://github.com/jboss-outreach/vertx-gradle-simple/archive/master.zip) file of this repository and unzip the file.
 * Download Vert.x from http://vertx.io/
 
@@ -29,12 +30,12 @@
 1. If you prefer using an IDE, install [IntelliJ IDEA](https://www.jetbrains.com/idea) or any other preferred IDE for Java Application Development.
 2. [Configure Java SDK](https://www.jetbrains.com/help/idea/defining-a-jdk-and-a-mobile-sdk-in-intellij-idea.html) version by going to :
 
-			* File ---> Project Structure ---> Project Settings ---> Set the project SDK to  **Java version 1.8**
+	* File ---> Project Structure ---> Project Settings ---> Set the project SDK to  **Java version 1.8**
 
 ## Running the app
 
 
-### Two Methods: 
+### Choose any **ONE** Method: 
 
 ##### 1. Using an IDE like IntelliJ IDEA,
 * Import the cloned repository into your IDE
@@ -44,15 +45,14 @@
 
 ##### 2. Command Line Method
 
-Directly run the application using the gradle plugin in the command line with ```./gradlew run``` on Linux/macOS OR ``` gradlew run ``` on Windows.
-* If permission is denied, then run cmd as admin (for Windows) or use ```chmod +x ./gradlew``` (for Linux/Unix)
+* Directly run the application using the gradle plugin in the command line with ```./gradlew run``` on Linux/macOS OR ``` gradlew run ``` on Windows. If permission is denied, then run cmd as admin (for Windows) or use ```chmod +x ./gradlew``` (for Linux/Unix)
 
 
 ## Viewing the app after running it
 
 Visit **http://localhost:8080** on your browser
 
-If everything was setup correctly, you will see  ``` "Hello World" ``` displayed in your browser. 
+If everything was setup correctly, you will see  ``` Hello World ``` displayed in your browser. 
 
 ###### Playing with the code
 
