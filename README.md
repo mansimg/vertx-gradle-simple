@@ -1,7 +1,6 @@
 # Vert.x 3.1 Simplest Gradle Project
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f2a69b0569704402b8341aa18979a79b)](https://www.codacy.com/app/tegenton/vertx-gradle-simple?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tegenton/vertx-gradle-simple&amp;utm_campaign=Badge_Grade)
-[![Build Status](https://travis-ci.org/jboss-outreach/vertx-gradle-simple.svg?branch=master)](https://travis-ci.org/jboss-outreach/vertx-gradle-simple)
 
 ## What is Vert.x-Gradle-Simple
 
