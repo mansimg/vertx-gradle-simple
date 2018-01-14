@@ -5,7 +5,7 @@
 
 ## What is Vert.x-Gradle-Simple
 
- Vert.x-Gradle-Simple is a `Hello World [Vert.x 3.1](http://vertx.io/)` project using the [Gradle](https://gradle.org/) build system. It initializes an HTTP server which simply returns "Hello World!" with every request.
+ Vert.x-Gradle-Simple is a `Hello World [Vert.x 3.1](http://vertx.io/)` project using the [Gradle](https://gradle.org/) build system. It initializes an HTTP server which simply returns "Hello World!" with every request. It can be used on various platforms like Windows,Linux and Mac.
 
  In this example, Vert.x is used in an embedded fashion. It uses Vert.x APIs directly in its classes rather than
  deploying code in verticles.
@@ -14,7 +14,14 @@
 ## Setting up the project
 
 * Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your Operating System.
-* Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
+* Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed.
+* If not then declare it by following these steps
+1. Copy the path to jdk folder `C:\Program Files\Java\jdkx.x.x\bin` where x.x.x is the version number in your case.
+2. Right Click on `This PC` or `My Computer` and Select `Properties`.
+3. In the Left Hand Corner Select `Advanced System Settings`.
+4. Click the button Environment Variables and make an Entry for JDK path in the path variable.
+5. **Do not Remove previous Entries of the path variable**
+
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
 * Clone the repository to your local machine by running the following command on git:
 
@@ -26,7 +33,7 @@
 * Download Vert.x from http://vertx.io/
 
 
-###### If not using an IDE, skip steps 1 and 2
+###### If you are using an IDE, skip steps 1 and 2
 
 1. If you prefer using an IDE, install [IntelliJ IDEA](https://www.jetbrains.com/idea) or any other preferred IDE for Java Application Development.
 2. [Configure Java SDK](https://www.jetbrains.com/help/idea/defining-a-jdk-and-a-mobile-sdk-in-intellij-idea.html) version by going to :
