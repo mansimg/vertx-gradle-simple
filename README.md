@@ -22,6 +22,12 @@
 4. Click the button Environment Variables and make an Entry for JDK path in the path variable.
 5. **Do not Remove previous Entries of the path variable**
 
+Declaring the `JAVA_HOME` environment variable in the command line (for Mac users)
+1. Copy the path to jdk folder `C:\Program Files\Java\jdkx.x.x\bin` where x.x.x is the version number in your case.
+2. Open Terminal window through Launchpad.
+3. In the Terminal window type in `export PATH=$PATH:[pathname]`. paste in the copied pathname.
+4. To check if your pathname has been added to the environment variable, type in `echo $PATH`. In the result you should see your copied pathname at the end.
+
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
 * Clone the repository to your local machine by running the following command on git:
 
@@ -47,7 +53,7 @@
 
 ##### 1. Using an IDE like IntelliJ IDEA,
 * Import the cloned repository into your IDE
-* Right click on the vertx at the top of the code and use the suggested help from IntelliJ to link it to the project
+* Right click on the vertx at the top of the code and use the suggested help from IntelliJ to link it to the project OR add the external vertex archives to the project. You can do this by right-clicking on the project and selecting Build Path -> Add External Archives.
 * Right click the **HelloWorldEmbedded** class
 * Click **Run as...**
 
